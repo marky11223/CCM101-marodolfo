@@ -15,6 +15,14 @@ sudo docker logs client-website
 sudo docker logs client-website | grep "404"
 ```
 
+## Container Metrics
+
+- Container: client-website
+- CPU Usage: 0.00%
+- Memory Usage: 2.906 MiB
+
+The metrics were obtained using `sudo docker stats`.
+
 ### Why Application Logs Are Important
 
 Application logs are important because they provide a record of events and requests processed by an application. They help engineers identify errors, understand what happened before a failure, and troubleshoot problems using actual evidence.
